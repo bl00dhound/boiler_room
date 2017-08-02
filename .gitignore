@@ -5,3 +5,4 @@ front/node_modules
 front/build
 front/*.log*
 npm-debug.log
+server/node_modules
