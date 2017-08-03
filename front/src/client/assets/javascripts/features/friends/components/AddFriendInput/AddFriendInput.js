@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Input } from 'semantic-ui-react'
 
 import './AddFriendInput.scss';
 
@@ -33,7 +34,7 @@ export default class AddFriendInput extends Component {
 
   render() {
     return (
-      <input
+      <Input
         type="text"
         autoFocus="true"
         className="form-control addFriendInput"

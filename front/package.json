@@ -1,5 +1,5 @@
 {
-  "name": "boiler_room",
+  "name": "front",
   "description": "",
   "version": "0.0.1",
   "author": "BS Academy",
@@ -18,7 +18,6 @@
     "postbuild": "npm run build:html",
     "build:serve": "http-server build/client -p 3003 --cors -o",
     "lint": "eslint config src/js/** --ext .js",
-    "typecheck": "flow",
     "tunnel": "lt --port 3000"
   },
   "devDependencies": {
@@ -82,6 +81,8 @@
     "redux": "3.5.2",
     "redux-logger": "2.6.1",
     "redux-promise": "0.5.3",
-    "reselect": "2.5.3"
+    "reselect": "2.5.3",
+    "semantic-ui-css": "^2.2.11",
+    "semantic-ui-react": "^0.71.3"
   }
 }
